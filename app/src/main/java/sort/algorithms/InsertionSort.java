@@ -13,4 +13,10 @@ public class InsertionSort {
             array[j+1] = current;
         }
     }
+
+    public static void main(String[] args) {
+        InsertionSort test = new InsertionSort();
+        int[] array = {6,409,342,653,8694,3143,7345,4};
+        test.sort(array);
+    }
 }
